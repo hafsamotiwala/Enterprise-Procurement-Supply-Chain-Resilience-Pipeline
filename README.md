@@ -1,7 +1,7 @@
-# OmniMarket Global: Procurement & Supply Chain Optimization Audit
+# Horizon Marketplace: Procurement & Supply Chain Optimization Audit
 
 ##  The Business Scenario
-**OmniMarket Global** is a multi-regional online storefront. The business model is simple: we buy 50 different products from 5 global manufacturing suppliers, store them in two major regional hubs (**WH-EAST** and **WH-WEST**), and sell them directly to customers on our app.
+**Horizon Marketplace** is a multi-regional online storefront. The business model is simple: we buy 50 different products from 5 global manufacturing suppliers, store them in two major regional hubs (**WH-EAST** and **WH-WEST**), and sell them directly to customers on our app.
 
 ###  The Problem
 Lately, the company has been facing a double-edged sword: net profit margins are shrinking, cash is tied up, and customers are complaining about out-of-stock items. Management suspects that we are holding too much slow-moving stock that wastes warehouse space, while simultaneous supplier delays are causing us to completely run out of our best-selling products.
@@ -52,10 +52,10 @@ erDiagram
 
 ---
 
-## 🔍 Key Findings & Analytical Insights
+##  Key Findings & Analytical Insights
 
 ###  1. Supplier Performance: The Reliable vs. The Liabilities
-My analysis shows that OmniMarket Global does not have a manufacturing issue, but a shipping and logistics bottleneck. Suppliers are capable of making the products, but their delivery timelines are highly unreliable.
+My analysis shows that Horizon Marketplace does not have a manufacturing issue, but a shipping and logistics bottleneck. Suppliers are capable of making the products, but their delivery timelines are highly unreliable.
 
 * **The Top Performer:** *Alpha Logistics* is our best partner. They have a **67.86% Perfect OTIF (On-Time In-Full)** rate, zero average days of delay, and shorted only 33 units over 84 total orders.
 * **The Operational Liability:** *Delta Corp* is a massive liability. They get deliveries right only **49.28%** of the time, are consistently late, and failed to deliver a total of **195 physical units** that we ordered. 
@@ -98,14 +98,11 @@ To fix these stockout gaps permanently, I built a predictive restocking matrix. 
 For example, on **Product 42**, we sell about 9 units a day and suppliers take 11.5 days to deliver. By establishing an emergency buffer of 22 units, the database outputs a dynamic **Reorder Point of 129 units**. The exact moment warehouse stock dips to 129, an automated order should be sent to the supplier so new boxes arrive just as we touch the buffer.
 
 ###  5. Warehouse Performance: The Operational Mirror
-I audited the efficiency and stock turnover rates between **WH-EAST** and **WH-WEST** to see if one location was being managed poorly. 
-
-Interestingly, both distribution hubs show completely identical stock volumes, product distribution, and turnover speeds. This proves that our regional warehouse managers are doing a fantastic job. The root cause of our empty shelves lies entirely with **upstream supplier delivery failures**, not our internal operations.
+I audited the efficiency and stock turnover rates between **WH-EAST** and **WH-WEST** to see if one location was being managed poorly. Interestingly, both distribution hubs show completely identical stock volumes, product distribution, and turnover speeds. This proves that our regional warehouse managers are doing a fantastic job. The root cause of our empty shelves lies entirely with **upstream supplier delivery failures**, not our internal operations.
 
 ---
 
 ##  What the Business Should Do Next (Strategic Actions)
-
 Based on the bottlenecks identified in this audit, the management team should immediately implement these three operational fixes:
 
 1. **Hold suppliers accountable to their deadlines:** We need to put *Delta Corp* on a performance improvement plan or look into moving their order volume over to *Alpha Logistics*. Their constant delays and short-shipped orders are directly choking our distribution network.
@@ -113,4 +110,5 @@ Based on the bottlenecks identified in this audit, the management team should im
 3. **Clear out dead stock to free up cash:** Stop buying low-velocity Class C products. We need to run markdown sales to liquidate the slow-moving stock sitting on our shelves, which will clear out warehouse space and free up frozen cash for our highest-performing categories.
 
 ---
-Repository Maintainer: Hafsa | Growth and Data Analyst
+
+Repository Maintainer: Hafsa | Growth And Data Analyst
