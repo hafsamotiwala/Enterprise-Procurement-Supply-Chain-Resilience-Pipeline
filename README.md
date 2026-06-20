@@ -113,4 +113,4 @@ Based on the bottlenecks identified in this audit, the management team should im
 3. **Clear out dead stock to free up cash:** Stop buying low-velocity Class C products. We need to run markdown sales to liquidate the slow-moving stock sitting on our shelves, which will clear out warehouse space and free up frozen cash for our highest-performing categories.
 
 ---
-Repository Maintainer: Growth and Data Analyst
+Repository Maintainer: Hafsa | Growth and Data Analyst
